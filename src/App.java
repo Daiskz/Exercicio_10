@@ -6,7 +6,7 @@ public class App {
             System.out.println("Digite a temperatura em graus celsius: ");
             double celsius = entrada.nextDouble();
             double fahrenheit = ((celsius * 1.8) + 32);
-            System.out.print("A temperatura em fahrenheit é: " + fahrenheit);
+            System.out.print("A temperatura convertida em fahrenheit é: " + fahrenheit);
         }
     }
 }
